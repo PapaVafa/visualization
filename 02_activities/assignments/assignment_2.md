@@ -10,20 +10,52 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+    
 
+    
+    Good Data Visualization
+    Visualization: “Women in STEM” – Tableau Public
+    Link: https://public.tableau.com/views/WomeninSTEM/
 
+    This visualization presents the percentage of women in STEM fields across time using a clean, interactive line graph. It is classified as good for three primary reasons:
 
+    Clear Communication and Visual Simplicity: The line chart is a straightforward choice for showing trends over time. It avoids clutter and uses a minimalist design, aligning with Edward Tufte’s principle of data-ink maximization (Tufte, 2001). Each data line is clearly labeled, reducing the need for a legend, and making interpretation intuitive.
 
+    Accessibility and Inclusive Design: The use of high-contrast colors and text ensures readability for all users, including those with visual impairments. The visualization adheres to accessibility guidelines (WCAG 2.1), which is essential for equitable data communication (D'Ignazio & Klein, 2020).
 
+    Context and Narrative: The chart includes labeled milestones (e.g., educational policy changes) that enhance storytelling. This approach follows Evergreen’s (2017) recommendation to embed annotation and context into visualizations to guide viewers through the data narrative. 
+
+    Bad Data Visualization
+    Visualization: “3D Pie Chart: Smartphone Market Share” – Sample from DataVizProject
+    Link: https://datavizproject.com/data-type/3d-pie-chart/
+
+    This 3D pie chart presents smartphone market share percentages for different companies. It is classified as a bad data visualization for the following reasons:
+
+    Distortion Due to 3D Design: The 3D effect distorts perception. Visual elements in the foreground appear disproportionately larger than those in the background, regardless of actual values. Cleveland and McGill (1984) demonstrated that angle-based perception (as in pie charts) is far less accurate than position-based encodings (like bar charts).
+
+    Cluttered and Unreadable Layout: The chart includes unnecessary shading, gradients, and rotation, creating “chartjunk” (Tufte, 2001). These elements detract from data clarity. Moreover, the labels are not directly attached to the chart slices, requiring viewers to match them via a confusing legend, which reduces cognitive efficiency (Few, 2009).
+
+    Lack of Context and Transparency: The visualization does not indicate the source of the data, nor does it clarify the time frame or geographic scope (e.g., global vs. regional market). This omission weakens the viewer's trust and hinders critical analysis of the data.
+
+    Additionally, the choice of colors is problematic. Some slices are too similar in hue, which can confuse interpretation, especially for users with color blindness.
 
 
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
+      Good data Visualization: 
 
+      Expand Categories by Intersectionality: The chart currently displays “women” as a single group. Including race and ethnicity (e.g., Black or Latina women in STEM) would offer a more nuanced view, addressing intersectionality in data equity (D'Ignazio & Klein, 2020).
 
+      Add a Forecast or Projection Component: A simple extrapolation model or “goal line” could give insight into future progress and stimulate action-oriented thinking.
+
+      Bad Data Visualization:
+
+      Use a Bar Chart or Stacked Column Chart Instead: These formats are easier to interpret and more accurately convey comparative proportions, especially for small differences. They also align better with principles of perceptual accuracy (Few, 2009).
+
+      Add Source, Units, and Time Context: Providing metadata like data source, year, and region makes the visualization more credible and useful. Context helps the viewer make informed judgments and supports transparent communication (Evergreen, 2017).
+
+      Improve Color Selection and Labeling: Use colorblind-friendly palettes and place labels directly on bars or segments to reduce confusion and cognitive load.
 
 
 
