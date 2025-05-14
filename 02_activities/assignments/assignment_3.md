@@ -12,20 +12,44 @@
     I used Python (Pandas library) for data handling and Matplotlib and Seaborn for visualizations. These tools were chosen for their wide use in professional data work. In addition, I used Google colab to create an interactive development environment.
   
     > Who is your intended audience? 
-    
+
+My intended audience includes education policy analysts, school board administrators, and families who may be seeking insight into the availability and characteristics of private schools in Ontario. The visualizations aim to support both professional decision-making and public understanding of geographic and program-level disparities.
+
     > What information or message are you trying to convey with your visualization? 
+
+    The primary message I sought to convey is how private school offerings vary by region, and how factors such as program type, school level, and postal code accessibility might reflect patterns in educational access or specialization. 
     
     > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
+
+
+    Key design considerations included readability and clarity. I used consistent bar plots. Adding axis labels, titles, and labels for categorical columns like city names or program types.
+    Including annotated counts on bar charts to reduce the need for the audience to estimate values from bar height alone.
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+
+    The data source is open and publicly available from the Ontario government's website, and the code used for processing and visualizing the data is self-contained. If another user downloads the 
+    same dataset, they can run the notebook from start to finish and recreate all plots.
     
     > How did you ensure that your data visualization is accessible?  
+
+    by choosing color palettes that are friendly for colorblind users and avoided red-green contrasts. Each plot includes clear labels, large readable fonts, and contrasting colors. 
     
     > Who are the individuals and communities who might be impacted by your visualization?  
+
+    This dataset includes educators, students, and parents, especially those involved in or affected by private schooling in Ontario. Policy-makers could use this data to identify under-served 
+    regions. Communities in remote or rural areas might be affected if the visualization reveals gaps in private school access. By visualizing this data, we may influence where resources, 
+     approvals, or outreach are prioritized. 
     
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+
+     I prioritized features that provided geographic or categorical insights: Region, City, Program Type, School Level, and Postal Code. I excluded fields like the full Street Address, Fax, and 
+     Principal Name since they are individually identifying and don’t contribute to aggregate insights. Fields like Suite or PO Box were also omitted for their limited analytical value. Instead, 
+     focus was placed on summary metrics and group comparisons across the population of schools.
     
     > What ‘underwater labour’ contributed to your final data visualization product?
+
+    Significant time was spent on cleaning and preparing the data — handling missing values in Program Type, standardizing inconsistent City naming, and parsing postal codes for geolocation. 
+    Debugging small errors (like case mismatches or inconsistent whitespace) and deciding how to bin categories (e.g., grouping lesser-used program types) contributed unseen effort.
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
