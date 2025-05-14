@@ -9,6 +9,8 @@
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
 
+    I used Python (Pandas library) for data handling and Matplotlib and Seaborn for visualizations. These tools were chosen for their wide use in professional data work. In addition, I used Google colab to create an interactive development environment.
+  
     > Who is your intended audience? 
     
     > What information or message are you trying to convey with your visualization? 
