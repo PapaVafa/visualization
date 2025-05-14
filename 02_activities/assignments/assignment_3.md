@@ -13,7 +13,7 @@
   
     > Who is your intended audience? 
 
-My intended audience includes education policy analysts, school board administrators, and families who may be seeking insight into the availability and characteristics of private schools in Ontario. The visualizations aim to support both professional decision-making and public understanding of geographic and program-level disparities.
+    My intended audience includes education policy analysts, school board administrators, and families who may be seeking insight into the availability and characteristics of private schools in Ontario. The visualizations aim to support both professional decision-making and public understanding of geographic and program-level disparities.
 
     > What information or message are you trying to convey with your visualization? 
 
